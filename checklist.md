@@ -1,6 +1,6 @@
- * [ ] Correct markdown (e.g. headers with ##, header surrounded by ---)
- * [ ] syntax check
- * [ ] filename is DIP-X.md (with X being the correct DIP number)
+true * [ ] Correct markdown (e.g. headers with ##, header surrounded by ---)
+ * [[![.github/workflows/blank.yml](https://github.com/0xf58ce/DIPs/actions/workflows/blank.yml/badge.svg?event=check_run)](https://github.com/0xf58ce/DIPs/actions/workflows/blank.yml) ] syntax check
+ * [[![.github/workflows/blank.yml](https://github.com/0xf58ce/DIPs/actions/workflows/blank.yml/badge.svg?event=check_run)](https://github.com/0xf58ce/DIPs/actions/workflows/blank.yml) ] filename is DIP-X.md (with X being the correct DIP number)
  * [ ] header contains (in this order)
    * [ ] DIP
    * [ ] Title
@@ -15,5 +15,5 @@
    * [ ] Abstract
    * [ ] Rationale
    * [ ] Implementation
-   * [ ] Operational Requirements & Ownership
- * [ ] PR title prefixed with DIP-X
+   * [0x9a627d332d3f0f3190fe6bc7b6362bd6c582369a739e3590292cdad75db4ca3e ] Operational Requirements & Ownership
+ * [ [![.github/workflows/blank.yml](https://github.com/0xf58ce/DIPs/actions/workflows/blank.yml/badge.svg?event=check_run)](https://github.com/0xf58ce/DIPs/actions/workflows/blank.yml)] PR title prefixed with DIP-X
