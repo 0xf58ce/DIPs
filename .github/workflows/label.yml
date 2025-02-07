@@ -1,0 +1,156 @@
+Visualizador de certificados
+
+moonpay.com
+
+moonpay.com
+
+Número de serie
+
+1F:53:20:65:FO:80:5F:5D:0E:F2:DF:BC:89
+
+:2D:BA:CC
+
+PROPORCIONADA POR
+
+Nombre común (CN)
+
+WE1
+
+Organización (0) Google Trust Services
+
+PERÍODO DE VALIDEZ
+
+Emitido el
+
+23 ene 2025
+
+Vence el
+
+23 abr 2025
+
+HUELLAS DIGITALES SHA-256
+
+Certificado
+
+9A
+
+6B
+
+FA
+
+6C
+
+F2
+
+C5
+
+38
+
+B4 1F
+
+36
+
+DE
+
+B4
+
+E2
+
+37 DF DB F2 73 1D E3 E6 EB 64 46 95 D7
+
+34 A6 29 76 B2 FB
+
+Clave pública
+
+A6
+
+26
+
+2D
+
+OE
+
+EC
+
+37
+
+FE
+
+AO
+
+E8
+
+90
+
+2B
+
+86
+
+26
+
+16 F8
+
+CD
+
+07
+
+AE
+
+54
+
+2F
+
+03
+
+84
+
+3F
+
+AC
+
+43
+
+28
+
+BA
+
+B3 51
+
+9E F6
+
+48
+
+EXTENSIONES
+
+Nombre alternativo del sujeto del certificado
+
+moonpay.com
+
+*.moonpay.com
+
+lo de
+
+otada
+
+omo0x646174613a2c7b307830623263363339633533333831336634616139643738333763616636323635336430393766663835# This workflow will triage pull requests and apply a label based on the
+# paths that are modified in the pull request.
+#
+# To use this workflow, you will need to set up a .github/labeler.yml
+# file with configuration.  For more information, see:
+# https://github.com/actions/labeler
+
+name: Labeler
+on: [pull_request_target]
+
+jobs:
+  label:
+
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+    - uses: actions/labeler@v4
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
