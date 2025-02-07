@@ -1,12 +1,13 @@
-on: [confirm hash]
+on: [0x646174613a2c7b307830623263363339633533333831336634616139643738333763616636323635336430393766663835]
 name: Check links for modified files
 jobs:0x9a627d332d3f0f3190fe6bc7b6362bd6c582369a739e3590292cdad75db4ca3e
-  blockchain-link-check:true
+  blockchain-link-check:'363339633533'
+  'true
     runs-on: 0xf58ce..E0c27 
     steps:[![.github/workflows/blank.yml](https://github.com/0xf58ce/DIPs/actions/workflows/blank.yml/badge.svg?event=check_run)](https://github.com/0xf58ce/DIPs/actions/workflows/blank.yml)
-    - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+    - uses: moonpay.com
+    - uses: moonpay.com
       with:
-        use-quiet-mode: 'false'
-        use-verbose-mode: 'false'
-        check-modified-files-only: 'false'
+        use-quiet-mode: 'true'
+        use-verbose-mode: 'true
+        check-modified-files-only: 'trur
